@@ -1,0 +1,15 @@
+{
+    "id": "create-swipe-event",
+    "author": "jinzw",
+    "changes": [{
+        "createSchema": {
+            "name": "SwipeEvent",
+            "type": "object",
+            "properties": [{
+                "name": "direction",
+                "type": "string",
+                "enum": ["left", "right", "up", "down"]
+            }]
+        }
+    }]
+}
