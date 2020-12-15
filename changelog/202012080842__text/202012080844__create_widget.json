@@ -13,7 +13,7 @@
                 "label": "组件的样式声明",
                 "valueType": "string"
             },{
-                "name": "classes",
+                "name": "class",
                 "label": "组件的样式类",
                 "valueType": "string"
             }],

@@ -1,0 +1,14 @@
+{
+    "id": "create-check-event",
+    "author": "jinzw",
+    "changes": [{
+        "createSchema": {
+            "name": "CheckEvent",
+            "type": "object",
+            "properties": [{
+                "name": "checked",
+                "type": "boolean"
+            }]
+        }
+    }]
+}
