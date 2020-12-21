@@ -1,33 +1,14 @@
 {
-    "id": "create_checkbox",
+    "id": "create_image",
     "author": "jinzw",
     "changes": [
         {
             "createWidget": {
-                "name": "Checkbox",
+                "name": "Image",
                 "properties": [
                     {
-                        "name": "type",
-                        "label": "类型",
-                        "valueType": "string",
-                        "defaultValue": "button",
-                        "enum": ["button", "checkbox", "radio"]
-                    },
-                    {
-                        "name": "name",
-                        "label": "名称",
-                        "valueType": "string"
-                    },
-                    {
-                        "name": "value",
-                        "label": "值",
-                        "valueType": "string"
-                    },
-                    {
-                        "name": "checked",
-                        "label": "是否选中",
-                        "valueType": "boolean",
-                        "defaultValue": "false"
+                        "name": "src",
+                        "label": "图片路径"
                     },
                     {
                         "name": "style",
@@ -41,15 +22,6 @@
                     }
                 ],
                 "events": [
-                    {
-                        "name": "onchange",
-                        "label": "状态发生变化时触发",
-                        "arguments": [{
-                            "name": "checkEvent",
-                            "label": "checkEvent",
-                            "valueType": "CheckEvent"
-                        }]
-                    },
                     {
                         "name": "onclick",
                         "label": "点击动作触发该事件",

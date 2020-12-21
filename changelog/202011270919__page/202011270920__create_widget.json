@@ -7,23 +7,23 @@
             "properties": [],
             "events": [{
                 "name": "onInit",
-                "description": "页面数据初始化完成时触发，只触发一次",
+                "label": "页面数据初始化完成时触发，只触发一次",
                 "arguments": []
             }, {
                 "name": "onReady",
-                "description": "页面创建完成时触发，只触发一次",
+                "label": "页面创建完成时触发，只触发一次",
                 "arguments": []
             }, {
                 "name": "onShow",
-                "description": "页面显示时触发",
+                "label": "页面显示时触发",
                 "arguments": []
             }, {
                 "name": "onHide",
-                "description": "页面消失时触发",
+                "label": "页面消失时触发",
                 "arguments": []
             }, {
                 "name": "onDestroy",
-                "description": "页面销毁时触发",
+                "label": "页面销毁时触发",
                 "arguments": []
             }]
         }

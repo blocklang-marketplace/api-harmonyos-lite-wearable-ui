@@ -1,0 +1,111 @@
+{
+    "id": "create_image_animator",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "ImageAnimator",
+                "properties": [
+                    {
+                        "name": "images",
+                        "label": "图片帧信息集合",
+                        "valueType": "Array<ImageFrame>"
+                    },
+                    {
+                        "name": "iteration",
+                        "label": "帧动画播放次数",
+                        "valueType": "number | string",
+                        "defaultValue": "infinite"
+                    },
+                    {
+                        "name": "reverse",
+                        "label": "播放顺序",
+                        "valueType": "boolean",
+                        "defaultValue": "false"
+                    },
+                    {
+                        "name": "fixedsize",
+                        "label": "图片大小是否固定为组件大小",
+                        "valueType": "boolean",
+                        "defaultValue": "true"
+                    },
+                    {
+                        "name": "duration",
+                        "label": "单次播放时长",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "style",
+                        "label": "组件的样式声明",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "class",
+                        "label": "组件的样式类",
+                        "valueType": "string"
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "onstop",
+                        "label": "帧动画结束时触发",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onclick",
+                        "label": "点击动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onlongpress",
+                        "label": "长按动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onswipe",
+                        "label": "组件上快速滑动后触发",
+                        "arguments": [
+                            {
+                                "name": "swipeEvent",
+                                "label": "swipeEvent",
+                                "valueType": "SwipeEvent"
+                            }
+                        ]
+                    }
+                ],
+                "methods": [
+                    {
+                        "name": "start",
+                        "label": "开始播放图片帧动画",
+                        "arguments": []
+                    },
+                    {
+                        "name": "pause",
+                        "label": "暂停播放图片帧动画",
+                        "arguments": []
+                    },
+                    {
+                        "name": "stop",
+                        "label": "停止播放图片帧动画",
+                        "arguments": []
+                    },
+                    {
+                        "name": "resume",
+                        "label": "继续播放图片帧",
+                        "arguments": []
+                    },
+                    {
+                        "name": "getState",
+                        "label": "获取播放状态",
+                        "arguments": [],
+                        "returnType": {
+                            "type": "'playing' | 'paused' | 'stopped'",
+                            "label": "播放状态"
+                        }
+                    }
+
+                ]
+            }
+        }
+    ]
+}

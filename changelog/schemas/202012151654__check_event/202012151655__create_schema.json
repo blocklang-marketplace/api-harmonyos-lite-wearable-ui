@@ -1,5 +1,5 @@
 {
-    "id": "create-check-event",
+    "id": "create_check_event",
     "author": "jinzw",
     "changes": [{
         "createSchema": {

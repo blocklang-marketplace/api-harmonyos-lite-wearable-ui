@@ -6,16 +6,16 @@
             "name": "App",
             "properties": [{
                 "name": "vendor",
-                "label": "",
+                "label": "供应商",
                 "valueType": "string"
             }],
             "events": [{
                 "name": "onCreate",
-                "description": "当应用创建时调用",
+                "label": "当应用创建时调用",
                 "arguments": []
             }, {
                 "name": "onDestroy",
-                "description": "当应用退出时触发",
+                "label": "当应用退出时触发",
                 "arguments": []
             }]
         }

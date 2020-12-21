@@ -1,5 +1,5 @@
 {
-    "id": "create-swipe-event",
+    "id": "create_swipe_event",
     "author": "jinzw",
     "changes": [{
         "createSchema": {

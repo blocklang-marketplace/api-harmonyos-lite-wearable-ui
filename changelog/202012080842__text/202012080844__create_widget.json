@@ -19,15 +19,15 @@
             }],
             "events": [{
                 "name": "onclick",
-                "description": "点击动作触发该事件",
+                "label": "点击动作触发该事件",
                 "arguments": []
             }, {
                 "name": "onlongpress",
-                "description": "长按动作触发该事件",
+                "label": "长按动作触发该事件",
                 "arguments": []
             }, {
                 "name": "onswipe",
-                "description": "组件上快速滑动后触发",
+                "label": "组件上快速滑动后触发",
                 "arguments": [{
                     "name": "swipeEvent",
                     "label": "swipeEvent",

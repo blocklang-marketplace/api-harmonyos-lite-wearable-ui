@@ -1,0 +1,59 @@
+{
+    "id": "create_siwtch",
+    "author": "jinzw",
+    "changes": [{
+        "createWidget": {
+            "name": "Switch",
+            "properties": [
+                {
+                    "name": "checked",
+                    "label": "是否选中",
+                    "valueType": "boolean",
+                    "defaultValue": "false"
+                },
+                {
+                    "name": "style",
+                    "label": "组件的样式声明",
+                    "valueType": "string"
+                },
+                {
+                    "name": "class",
+                    "label": "组件的样式类",
+                    "valueType": "string"
+                }
+            ],
+            "events": [
+                {
+                    "name": "onchange",
+                    "label": "选中状态改变时触发该事件",
+                    "arguments": [{
+                        "name": "checkEvent",
+                        "label": "checkEvent",
+                        "valueType": "CheckEvent"
+                    }]
+                },
+                {
+                    "name": "onclick",
+                    "label": "点击动作触发该事件",
+                    "arguments": []
+                },
+                {
+                    "name": "onlongpress",
+                    "label": "长按动作触发该事件",
+                    "arguments": []
+                },
+                {
+                    "name": "onswipe",
+                    "label": "组件上快速滑动后触发",
+                    "arguments": [
+                        {
+                            "name": "swipeEvent",
+                            "label": "swipeEvent",
+                            "valueType": "SwipeEvent"
+                        }
+                    ]
+                }
+            ]
+        }
+    }]
+}

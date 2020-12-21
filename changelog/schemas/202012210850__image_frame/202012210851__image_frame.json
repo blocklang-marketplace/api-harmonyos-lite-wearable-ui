@@ -1,0 +1,44 @@
+{
+    "id": "create_image_frame",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ImageFrame",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "src",
+                        "type": "string",
+                        "required": true,
+                        "label": "图片路径"
+                    },
+                    {
+                        "name": "width",
+                        "type": "number",
+                        "default": "0",
+                        "label": "图片宽度"
+                    },
+                    {
+                        "name": "height",
+                        "type": "number",
+                        "default": "0",
+                        "label": "图片高度"
+                    },
+                    {
+                        "name": "top",
+                        "type": "number",
+                        "default": "0",
+                        "label": "图片相对于组件左上角的纵向坐标"
+                    },
+                    {
+                        "name": "left",
+                        "type": "number",
+                        "default": "0",
+                        "label": "图片相对于组件左上角的横向坐标"
+                    }
+                ]
+            }
+        }
+    ]
+}
