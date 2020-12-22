@@ -1,0 +1,19 @@
+{
+    "id": "create_scroll_event",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ScrollEvent",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "index",
+                        "type": "number",
+                        "label": "指定位置"
+                    }
+                ]
+            }
+        }
+    ]
+}

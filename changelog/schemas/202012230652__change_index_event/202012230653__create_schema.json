@@ -1,0 +1,19 @@
+{
+    "id": "create_change_index_event",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ChangeIndexEvent",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "index",
+                        "type": "number",
+                        "label": "指定的索引"
+                    }
+                ]
+            }
+        }
+    ]
+}

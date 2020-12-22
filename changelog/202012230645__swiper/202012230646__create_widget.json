@@ -1,0 +1,81 @@
+{
+    "id": "create_swiper",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "Swiper",
+                "canHasChildren": true,
+                "properties": [
+                    {
+                        "name": "index",
+                        "label": "当前显示子组件的索引值",
+                        "valueType": "numner",
+                        "defaultValue": "0"
+                    },
+                    {
+                        "name": "loop",
+                        "label": "是否开启循环轮播",
+                        "valueType": "boolean",
+                        "defaultValue": "true"
+                    },
+                    {
+                        "name": "vertical",
+                        "label": "是否为纵向滑动",
+                        "valueType": "boolean",
+                        "defaultValue": "false"
+                    },
+                    {
+                        "name": "duration",
+                        "label": "子组件切换的动画时长",
+                        "valueType": "number"
+                    },
+                    {
+                        "name": "style",
+                        "label": "组件的样式声明",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "class",
+                        "label": "组件的样式类",
+                        "valueType": "string"
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "onchange",
+                        "label": "显示的组件索引变化时触发该事件",
+                        "arguments": [
+                            {
+                                "name": "changeIndexEvent",
+                                "label": "changeIndexEvent",
+                                "valueType": "ChangeIndexEvent"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "onclick",
+                        "label": "点击动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onlongpress",
+                        "label": "长按动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onswipe",
+                        "label": "组件上快速滑动后触发",
+                        "arguments": [
+                            {
+                                "name": "swipeEvent",
+                                "label": "swipeEvent",
+                                "valueType": "SwipeEvent"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

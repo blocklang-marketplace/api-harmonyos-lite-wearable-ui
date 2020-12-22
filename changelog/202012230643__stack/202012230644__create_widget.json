@@ -1,0 +1,47 @@
+{
+    "id": "create_stack",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "Stack",
+                "canHasChildren": true,
+                "properties": [
+                    {
+                        "name": "style",
+                        "label": "组件的样式声明",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "class",
+                        "label": "组件的样式类",
+                        "valueType": "string"
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "onclick",
+                        "label": "点击动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onlongpress",
+                        "label": "长按动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onswipe",
+                        "label": "组件上快速滑动后触发",
+                        "arguments": [
+                            {
+                                "name": "swipeEvent",
+                                "label": "swipeEvent",
+                                "valueType": "SwipeEvent"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
