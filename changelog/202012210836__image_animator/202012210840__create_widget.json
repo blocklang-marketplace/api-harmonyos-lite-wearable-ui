@@ -99,8 +99,9 @@
                         "label": "获取播放状态",
                         "arguments": [],
                         "returnType": {
-                            "type": "'playing' | 'paused' | 'stopped'",
-                            "label": "播放状态"
+                            "type": "string",
+                            "label": "播放状态",
+                            "enum": ["playing", "paused", "stopped"]
                         }
                     }
 

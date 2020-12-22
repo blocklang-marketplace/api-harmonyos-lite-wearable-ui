@@ -1,0 +1,64 @@
+{
+    "id": "create_progress",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "Progress",
+                "properties": [
+                    {
+                        "name": "type",
+                        "label": "类型",
+                        "valueType": "string",
+                        "enum": [
+                            "horizontal",
+                            "arc",
+                            "ring",
+                            "scale-ring",
+                            "circular"
+                        ]
+                    },
+                    {
+                        "name": "percent",
+                        "label": "当前进度",
+                        "valueType": "number",
+                        "defaultValue": "0"
+                    },
+                    {
+                        "name": "style",
+                        "label": "组件的样式声明",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "class",
+                        "label": "组件的样式类",
+                        "valueType": "string"
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "onclick",
+                        "label": "点击动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onlongpress",
+                        "label": "长按动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onswipe",
+                        "label": "组件上快速滑动后触发",
+                        "arguments": [
+                            {
+                                "name": "swipeEvent",
+                                "label": "swipeEvent",
+                                "valueType": "SwipeEvent"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

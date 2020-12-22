@@ -1,0 +1,52 @@
+{
+    "id": "create_marquee",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "Marquee",
+                "properties": [
+                    {
+                        "name": "scrollamount",
+                        "label": "滚动时移动的最大长度",
+                        "valueType": "number",
+                        "defaultValue": "6"
+                    },
+                    {
+                        "name": "style",
+                        "label": "组件的样式声明",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "class",
+                        "label": "组件的样式类",
+                        "valueType": "string"
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "onclick",
+                        "label": "点击动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onlongpress",
+                        "label": "长按动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onswipe",
+                        "label": "组件上快速滑动后触发",
+                        "arguments": [
+                            {
+                                "name": "swipeEvent",
+                                "label": "swipeEvent",
+                                "valueType": "SwipeEvent"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "create_picker_view_time_change_event",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "PickerViewTimeChangeEvent",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "hour",
+                        "type": "number"
+                    },
+                    {
+                        "name": "minute",
+                        "type": "numnber"
+                    }
+                ]
+            }
+        }
+    ]
+}

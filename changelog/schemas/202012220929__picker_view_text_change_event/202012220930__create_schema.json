@@ -1,0 +1,22 @@
+{
+    "id": "create_picker_view_text_change_event",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "PickerViewTextChangeEvent",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "newValue",
+                        "type": "string"
+                    },
+                    {
+                        "name": "newSelected",
+                        "type": "numnber"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "create_picker_view",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "PickerView",
+                "properties": [
+                    {
+                        "name": "type",
+                        "label": "类型",
+                        "valueType": "string",
+                        "defaultValue": "text",
+                        "enum": [
+                            "text",
+                            "time"
+                        ]
+                    },
+                    {
+                        "if": "{type}=='text'",
+                        "name": "range",
+                        "label": "取值范围",
+                        "valueType": "Array<string>"
+                    },
+                    {
+                        "if": "{type}=='text'",
+                        "name": "selected",
+                        "label": "默认选择的值",
+                        "valueType": "string",
+                        "defaultValue": "0"
+                    },
+                    {
+                        "if": "{type}=='time'",
+                        "name": "selected",
+                        "label": "默认选择的值",
+                        "valueType": "string",
+                        "defaultValue": "00:00"
+                    },
+                    {
+                        "name": "style",
+                        "label": "组件的样式声明",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "class",
+                        "label": "组件的样式类",
+                        "valueType": "string"
+                    }
+                ],
+                "events": [
+                    {
+                        "if": "{type}=='text'",
+                        "name": "onchange",
+                        "label": "选定值后触发",
+                        "arguments": [{
+                            "name": "data",
+                            "valueType": "PickerViewTextChangeEvent"
+                        }]
+                    },
+                    {
+                        "if": "{type}=='time'",
+                        "name": "onchange",
+                        "label": "选定值后触发",
+                        "arguments": [{
+                            "name": "data",
+                            "valueType": "PickerViewTimeChangeEvent"
+                        }]
+                    }
+                ]
+            }
+        }
+    ]
+}
