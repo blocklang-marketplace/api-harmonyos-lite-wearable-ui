@@ -1,0 +1,26 @@
+{
+    "id": "create_chart_line_style",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ChartLineStyle",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "width",
+                        "type": "number",
+                        "label": "线宽设置",
+                        "default": "1px"
+                    },
+                    {
+                        "name": "smooth",
+                        "type": "boolean",
+                        "label": "是否平滑",
+                        "default": "false"
+                    }
+                ]
+            }
+        }
+    ]
+}

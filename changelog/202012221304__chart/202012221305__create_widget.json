@@ -1,0 +1,71 @@
+{
+    "id": "create_chart",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "Chart",
+                "properties": [
+                    {
+                        "name": "type",
+                        "label": "类型",
+                        "valueType": "string",
+                        "defaultValue": "line",
+                        "enum": [
+                            "bar",
+                            "line"
+                        ]
+                    },
+                    {
+                        "name": "options",
+                        "label": "图标参数",
+                        "valueType": "ChartOptions"
+                    },
+                    {
+                        "name": "datasets",
+                        "label": "数据集合",
+                        "valueType": "Array<ChartDataset>"
+                    },
+                    {
+                        "name": "style",
+                        "label": "组件的样式声明",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "class",
+                        "label": "组件的样式类",
+                        "valueType": "string"
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "onclick",
+                        "label": "点击动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onlongpress",
+                        "label": "长按动作触发该事件",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onswipe",
+                        "label": "组件上快速滑动后触发",
+                        "arguments": [
+                            {
+                                "name": "swipeEvent",
+                                "label": "swipeEvent",
+                                "valueType": "SwipeEvent"
+                            }
+                        ]
+                    }
+                ],
+                "methods": [{
+                    "name": "append",
+                    "label": "往已有的数据序列中动态添加数据",
+                    "valueType": "ChartData"
+                }]
+            }
+        }
+    ]
+}

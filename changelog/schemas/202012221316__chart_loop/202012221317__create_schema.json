@@ -1,0 +1,16 @@
+{
+    "id": "create_chart_loop",
+    "author": "jinzw",
+    "changes": [{
+        "createSchema": {
+            "name": "ChartLoop",
+            "type": "object",
+            "properties": [{
+                "name": "margin",
+                "label": "擦除点的个数",
+                "type": "number",
+                "default": "1"
+            }]
+        }
+    }]
+}

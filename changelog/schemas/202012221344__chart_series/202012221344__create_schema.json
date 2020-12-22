@@ -1,0 +1,39 @@
+{
+    "id": "create_chart_series",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ChartSeries",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "lineStyle",
+                        "type": "ChartLineStyle",
+                        "label": "线样式设置"
+                    },
+                    {
+                        "name": "headPoint",
+                        "type": "PointStyle",
+                        "label": "线最前端位置白点的样式和大小"
+                    },
+                    {
+                        "name": "topPoint",
+                        "type": "PointStyle",
+                        "label": "最高点的样式和大小"
+                    },
+                    {
+                        "name": "bottomPoint",
+                        "type": "PointStyle",
+                        "label": "最低点的样式和大小"
+                    },
+                    {
+                        "name": "loop",
+                        "type": "ChartLoop",
+                        "label": "设置屏幕显示满时，是否需要重头开始绘制"
+                    }
+                ]
+            }
+        }
+    ]
+}

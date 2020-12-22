@@ -1,0 +1,29 @@
+{
+    "id": "create_chart_options",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ChartOptions",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "xAxis",
+                        "type": "ChartAxis",
+                        "label": "x轴参数设置"
+                    },
+                    {
+                        "name": "yAxis",
+                        "type": "ChartAxis",
+                        "label": "y轴参数设置"
+                    },
+                    {
+                        "name": "series",
+                        "type": "ChartSeries",
+                        "label": "数据序列参数设置"
+                    }
+                ]
+            }
+        }
+    ]
+}

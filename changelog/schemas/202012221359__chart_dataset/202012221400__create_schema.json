@@ -1,0 +1,37 @@
+{
+    "id": "create_chart_dataset",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ChartDataset",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "strokeColor",
+                        "type": "string",
+                        "default": "#ff6384",
+                        "label": "线条颜色"
+                    },
+                    {
+                        "name": "fillColor",
+                        "type": "string",
+                        "default": "#ff6384",
+                        "label": "填充颜色"
+                    },
+                    {
+                        "name": "data",
+                        "type": "Array<number>",
+                        "label": "设置绘制线或柱中的点集"
+                    },
+                    {
+                        "name": "gradient",
+                        "type": "boolean",
+                        "default": "false",
+                        "label": "设置是否显示填充渐变颜色"
+                    }
+                ]
+            }
+        }
+    ]
+}

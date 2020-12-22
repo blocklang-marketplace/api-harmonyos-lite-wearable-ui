@@ -1,0 +1,51 @@
+{
+    "id": "create_point_style",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "PointStyle",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "shape",
+                        "label": "高亮点的形状",
+                        "type": "string",
+                        "default": "circle",
+                        "enum": ["circle"]
+                    },
+                    {
+                        "name": "size",
+                        "label": "高亮点的大小",
+                        "type": "string",
+                        "default": "5px"
+                    },
+                    {
+                        "name": "strokeWidth",
+                        "label": "边框宽度",
+                        "type": "string",
+                        "default": "1px"
+                    },
+                    {
+                        "name": "strokeColor",
+                        "label": "边框颜色",
+                        "type": "string",
+                        "default": "#ff0000"
+                    },
+                    {
+                        "name": "fillColor",
+                        "label": "填充颜色",
+                        "type": "string",
+                        "default": "#ff0000"
+                    },
+                    {
+                        "name": "display",
+                        "label": "是否高亮显示",
+                        "type": "boolean",
+                        "default": "true"
+                    }
+                ]
+            }
+        }
+    ]
+}

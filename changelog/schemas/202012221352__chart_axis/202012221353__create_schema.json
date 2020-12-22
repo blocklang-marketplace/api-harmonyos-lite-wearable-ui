@@ -1,0 +1,44 @@
+{
+    "id": "create_chart_axis",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "ChartAxis",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "min",
+                        "type": "number",
+                        "default": "0",
+                        "label": "轴的最小值"
+                    },
+                    {
+                        "name": "max",
+                        "type": "number",
+                        "default": "100",
+                        "label": "轴的最大值"
+                    },
+                    {
+                        "name": "axisTick",
+                        "type": "number",
+                        "default": "10",
+                        "label": "轴显示的刻度数量"
+                    },
+                    {
+                        "name": "display",
+                        "type": "boolean",
+                        "default": "false",
+                        "label": "是否显示轴"
+                    },
+                    {
+                        "name": "color",
+                        "type": "string",
+                        "default": "#c0c0c0",
+                        "label": "轴颜色"
+                    }
+                ]
+            }
+        }
+    ]
+}
