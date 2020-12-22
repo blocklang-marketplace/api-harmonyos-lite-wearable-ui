@@ -4,6 +4,7 @@
     "changes": [{
         "createWidget": {
             "name": "Text",
+            "canHasChildren": false,
             "properties": [{
                 "name": "value",
                 "label": "值",

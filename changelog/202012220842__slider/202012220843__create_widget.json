@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "Slider",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "min",

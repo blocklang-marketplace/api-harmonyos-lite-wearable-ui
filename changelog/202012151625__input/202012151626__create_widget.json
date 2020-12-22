@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "Checkbox",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "type",

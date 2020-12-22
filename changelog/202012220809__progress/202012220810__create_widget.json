@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "Progress",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "type",

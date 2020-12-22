@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "PickerView",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "type",

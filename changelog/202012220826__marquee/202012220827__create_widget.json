@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "Marquee",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "scrollamount",

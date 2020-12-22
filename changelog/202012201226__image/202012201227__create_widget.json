@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "Image",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "src",

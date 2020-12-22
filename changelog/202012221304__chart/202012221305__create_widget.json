@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "Chart",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "type",

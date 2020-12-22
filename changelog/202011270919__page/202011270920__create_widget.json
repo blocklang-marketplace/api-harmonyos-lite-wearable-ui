@@ -4,6 +4,7 @@
     "changes": [{
         "createWidget": {
             "name": "Page",
+            "canHasChildren": true,
             "properties": [],
             "events": [{
                 "name": "onInit",

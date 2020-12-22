@@ -4,6 +4,7 @@
     "changes": [{
         "createWidget": {
             "name": "Switch",
+            "canHasChildren": false,
             "properties": [
                 {
                     "name": "checked",

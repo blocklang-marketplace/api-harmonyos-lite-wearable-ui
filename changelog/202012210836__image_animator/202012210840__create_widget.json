@@ -5,6 +5,7 @@
         {
             "createWidget": {
                 "name": "ImageAnimator",
+                "canHasChildren": false,
                 "properties": [
                     {
                         "name": "images",
